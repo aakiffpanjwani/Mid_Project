@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Aakiff Panjwani(G01465365)"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - VideoLink.qmd
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+
+
